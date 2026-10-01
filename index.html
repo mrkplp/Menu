@@ -1,45 +1,135 @@
 <!doctype html>
-<html lang="ka">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ცხრილი</title>
-  </head>
-  <body>
-    <table>
-      <thead>
-        <th colspan="3">მენიუ</th>
-      </thead>
-      <tbody>
-        <tr>
-          <th>კატეგორია</th>
-          <th>პროდუქტი</th>
-          <th>ფასი</th>
-        </tr>
-        <tr>
-          <td rowspan="2">სასმელი</td>
-          <td>ყავა</td>
-          <td>7 ლარი</td>
-        </tr>
-        <tr>
-          <td>ჩაი</td>
-          <td>5 ლარი</td>
-        </tr>
-        <tr>
-          <td rowspan="2">საჭმელი</td>
-          <td>სენდვიჩი</td>
-          <td>10 ლარი</td>
-        </tr>
-        <tr>
-          <td>ჰოთ-დოგი</td>
-          <td>12 ლარი</td>
-        </tr>
-        <tr>
-          <td>დესერტი</td>
-          <td>კრუასანი</td>
-          <td>8 ლარი</td>
-        </tr>
-      </tbody>
-    </table>
-  </body>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chess</title>
+</head>
+
+<style>
+  body {
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  table {
+    width: 600px;
+    height: 600px;
+    height: 0 auto;
+    color: #e6bf25;
+    border-collapse: collapse;
+  }
+
+  td {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  .white {
+    background-color: rgb(186, 174, 174);
+  }
+
+  .black {
+    background-color: rgb(80, 59, 59);
+  }
+</style>
+
+<body>
+  <table>
+    <tbody>
+      <tr>
+        <td class="white">&#x2656;</td>
+        <td class="black">&#x2658;</td>
+        <td class="white">&#x2657;</td>
+        <td class="black">&#x2655;</td>
+        <td class="white">&#x2654;</td>
+        <td class="black">&#x2657;</td>
+        <td class="white">&#x2658;</td>
+        <td class="black">&#x2656;</td>
+      </tr>
+      <tr>
+        <td class="black">&#x2659;</td>
+        <td class="white">&#x2659;</td>
+        <td class="black">&#x2659;</td>
+        <td class="white">&#x2659;</td>
+        <td class="black">&#x2659;</td>
+        <td class="white">&#x2659;</td>
+        <td class="black">&#x2659;</td>
+        <td class="white">&#x2659;</td>
+
+      </tr>
+      <tr>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+      </tr>
+
+      <tr>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+      </tr>
+
+      <tr>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white">&#9823;</td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+      </tr>
+
+      <tr>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+        <td class="black"></td>
+        <td class="white"></td>
+      </tr>
+      <tr>
+        <td class="white">&#9823;</td>
+        <td class="black">&#9823;</td>
+        <td class="white">&#9823;</td>
+        <td class="black">&#9823;</td>
+        <td class="white"></td>
+        <td class="black">&#9823;</td>
+        <td class="white">&#9823;</td>
+        <td class="black">&#9823;</td>
+      </tr>
+
+      <tr>
+        <td class="black">&#9820;</td>
+        <td class="white">&#9822;</td>
+        <td class="black">&#9821;</td>
+        <td class="white">&#9819;</td>
+        <td class="black">&#9818;</td>
+        <td class="white">&#9821;</td>
+        <td class="black">&#9822;</td>
+        <td class="white">&#9820;</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+
 </html>
